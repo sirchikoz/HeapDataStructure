@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package com.tcodesinnovations.heapsort;
 
 /**
@@ -11,7 +7,7 @@ package com.tcodesinnovations.heapsort;
  */
 public class Data {
    private final Number[] array;
-   private int largestAvailableIndex;
+   private int largestAvailableIndex;//This points to the last index in the array of the available elements
    public Data(Number[] array){
        this.array = array;
        largestAvailableIndex = array.length - 1;
